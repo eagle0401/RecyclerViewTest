@@ -33,8 +33,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
         if (viewHolder instanceof RecyclerViewHolder) {
             MainRecyclerViewActivity.TaskItemEntry taskItemEntry = mNonGroupData.get(position);
             RecyclerViewHolder recyclerViewHolder = (RecyclerViewHolder) viewHolder;
-            recyclerViewHolder.titleText.setText(taskItemEntry.title);
-            recyclerViewHolder.summaryText.setText(taskItemEntry.summary);
+            recyclerViewHolder.mTitleText.setText(taskItemEntry.title);
+            recyclerViewHolder.mSummaryText.setText(taskItemEntry.summary);
         }
     }
 

@@ -1,6 +1,7 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="activity_padding">8dp</dimen>
+    <dimen name="activity_margin">8dp</dimen>
     <dimen name="recycler_view_item_title_text_size">18sp</dimen>
     <dimen name="recycler_view_item_summery_text_size">15sp</dimen>
 </resources>
